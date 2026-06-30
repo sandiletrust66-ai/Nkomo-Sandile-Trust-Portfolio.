@@ -1,6 +1,4 @@
-/* ==========================================================================
-   1. RESET & BASE STYLES
-   ========================================================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +13,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ==========================================================================
-   2. HEADER & NAVIGATION
-   ========================================================================== */
+
 header {
     position: fixed;
     top: 0;
@@ -76,12 +72,10 @@ header {
 #menu-icon {
     font-size: 1.8rem;
     cursor: pointer;
-    display: none; /* Hidden on desktop */
+    display: none; 
 }
 
-/* ==========================================================================
-   3. ABOUT SECTION (WITH BACKGROUND VIDEO)
-   ========================================================================== */
+
 .about {
     position: relative;
     width: 100%;
@@ -94,7 +88,7 @@ header {
     text-align: center;
 }
 
-/* Keeps your background video intact and fullscreen */
+
 .bg-video {
     position: absolute;
     top: 0;
@@ -106,7 +100,6 @@ header {
     pointer-events: none;
 }
 
-/* Glassmorphism card container over the video */
 .my-name-container {
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(12px);
@@ -161,9 +154,7 @@ header {
     transform: translateY(-3px);
 }
 
-/* ==========================================================================
-   4. COMMON SECTION TITLES
-   ========================================================================== */
+
 .section-title {
     font-size: 2.2rem;
     text-align: center;
@@ -311,9 +302,7 @@ header {
     color: #f8fafc;
 }
 
-/* ==========================================================================
-   7. CONTACT SECTION
-   ========================================================================== */
+
 .contact {
     padding: 100px 8%;
     background-color: #0f172a;
@@ -358,28 +347,22 @@ header {
     color: #38bdf8;
 }
 
-/* ==========================================================================
-   8. FOOTER
-   ========================================================================== */
+
 footer {
     text-align: center;
     padding: 30px;
     background: #000000;
     border-top: 1px solid #334155;
     color: #64748b;
-    font-size: 0.9rem;
-}
+    font-size: 0.9rem;}
 
-/* ==========================================================================
-   9. RESPONSIVE MEDIA QUERIES
-   ========================================================================== */
 @media (max-width: 768px) {
     header {
         padding: 20px 5%;
     }
 
     #menu-icon {
-        display: block; /* Shows hamburger menu on small displays */
+        display: block; 
         color: #f8fafc;
     }
 
